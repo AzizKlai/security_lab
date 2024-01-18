@@ -1,0 +1,4 @@
+dn: uid=aziz,ou=users,dc=ldaplab,dc=com
+changetype: modify
+add: usercertificate
+usercertificate;binary:: endcodedcertificate

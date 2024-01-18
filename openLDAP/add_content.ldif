@@ -1,0 +1,75 @@
+dn: ou=users,dc=ldaplab,dc=com
+objectClass: organizationalUnit
+ou: users
+
+dn: ou=groups,dc=ldaplab,dc=com
+objectClass: organizationalUnit
+ou: groups
+
+dn: cn=devteam,ou=groups,dc=ldaplab,dc=com
+objectClass: posixGroup
+cn: devteam
+gidNumber: 5000
+memberUid:aziz
+
+dn: cn=marketingteam,ou=groups,dc=ldaplab,dc=com
+objectClass: posixGroup
+cn: devteam
+gidNumber: 5001
+memberUid:sofien
+
+dn: cn=webusers,ou=groups,dc=ldaplab,dc=com
+objectClass: top
+objectClass: groupOfNames
+cn: webusers
+description: web Users
+member: uid=sofien,ou=users,dc=ldaplab,dc=com
+member: uid=firas,ou=users,dc=ldaplab,dc=com
+
+dn: uid=aziz,ou= users,dc=ldaplab,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: aziz
+sn: doe
+givenName: aziz
+cn: aziz doe
+displayName: aziz doe
+uidNumber: 10000
+gidNumber: 5000
+userPassword: {CRYPT}x
+gecos: aziz doe
+loginShell: /bin/bash
+homeDirectory: /home/aziz
+
+dn: uid=sofien,ou= users,dc=ldaplab,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: sofien
+sn: da
+givenName: sofien
+cn: sofien da
+displayName: sofien da
+uidNumber: 10001
+gidNumber: 5001
+userPassword: {CRYPT}x
+gecos: sofien da
+loginShell: /bin/bash
+homeDirectory: /home/sofien
+
+dn: uid=firas,ou= users,dc=ldaplab,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: firas
+sn: da
+givenName: firas
+cn: firas da
+displayName: firas da
+uidNumber: 10002
+gidNumber: 5001
+userPassword: {CRYPT}x
+gecos: firas da
+loginShell: /bin/bash
+homeDirectory: /home/firas
