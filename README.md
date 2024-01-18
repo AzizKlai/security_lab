@@ -4,11 +4,11 @@
 This project aims to implement a robust security infrastructure with authentication via OpenLDAP, SSH, Apache, OpenVPN, and the integration of network services with DNS, as well as authentication with Kerberos. 
 
 ## content
-### [Part 1: Authentication with OpenLDAP, SSH, Apache and OpenVPN](./document/security project.pdf)  
+### [Part 1: Authentication with OpenLDAP, SSH, Apache and OpenVPN](./document/security%20%project.pdf)  
  Establish a secure authentication framework using OpenLDAP, SSH, Apache, and OpenVPN. Configure OpenLDAP, authenticate users with Apache and SSH, and integrate OpenVPN with OpenLDAP. Rigorously test to ensure effectiveness.
-### [Part 2: Network Service Management with DNS](./documents/security project.pdf)  
+### [Part 2: Network Service Management with DNS](./documents/security%20%project.pdf)  
  Efficiently manage network services by configuring a Bind DNS server for domain resolution associated with OpenLDAP, Apache, and OpenVPN. Thoroughly test and validate the DNS setup.
-### [Part 3: Authentication with Kerberos](./documents/security project.pdf)  
+### [Part 3: Authentication with Kerberos](./documents/security%20%project.pdf)  
  Introducing Kerberos authentication to enhance the security framework. We will install and configure a Kerberos server, adding principals and password policies for users. Additionally, we will choose a service to configure for Kerberos authentication.
 ## Technologies 
 
