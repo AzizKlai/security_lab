@@ -10,6 +10,8 @@ This project aims to implement a robust security infrastructure with authenticat
  Efficiently manage network services by configuring a Bind DNS server for domain resolution associated with OpenLDAP, Apache, and OpenVPN. Thoroughly test and validate the DNS setup.
 ### [Part 3: Authentication with Kerberos](./documents/security%20project.pdf)  
  Introducing Kerberos authentication to enhance the security framework. We will install and configure a Kerberos server, adding principals and password policies for users. Additionally, we will choose a service to configure for Kerberos authentication.
+ ## Dockerized System for Testing
+Explore a Dockerized system to set up and test OpenSSH, OpenVPN, OpenLDAP, DNS, and Apache servers. This part of the project provides a convenient and isolated environment for testing the integrated security infrastructure. [repo](https://github.com/hunyan-io/cybersecurity-lab).
 ## Technologies 
 
 | Technology              | Description                                                                                                              |
@@ -23,8 +25,7 @@ This project aims to implement a robust security infrastructure with authenticat
 
 
 ---
-## Dockerized System for Testing
-Explore a Dockerized system to set up and test OpenSSH, OpenVPN, OpenLDAP, DNS, and Apache servers. This part of the project provides a convenient and isolated environment for testing the integrated security infrastructure. [repo](https://github.com/hunyan-io/cybersecurity-lab)
+
 #### Authors : 
  [@AzizKlai](https://www.github.com/AzizKlai)   [@HeniYangui](https://www.github.com/hunyan-io)  [@FirasMiladi](https://github.com/miladifiras01)   [@SofienAzzabli](https://github.com/sofienazzabi2)
  
